@@ -1,0 +1,80 @@
+body {
+    background-position: 0px 120px;
+    background-color: rgb(8 180 131 / 43%);
+    background-image: url(bear-face.png);
+    background-size: 100px;
+    background-blend-mode: color-dodge;
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+
+.header {
+    background-color: #1395e1;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header h1 {
+    color: rgba(17, 17, 111, 0.913);
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: 25px;
+ }
+
+.nav li {
+    display:inline-block
+}
+
+.nav ul li a {
+    text-decoration: none
+}
+
+.nav ul li[active] a {
+    color: rgb(12, 72, 145)!important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(12, 72, 145);
+    text-decoration-thickness: 10;
+}
+
+.content {
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30%;
+    background-color: #19416fcc;
+    text-align: start;
+    color: white;
+}
+
+.content h1 {
+    color: rgb(251, 247, 0);
+}
+
+.footer {
+    height: 60px;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.divdivon {
+    background-color: hotpink;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    padding: 15px;
+    border: #c5e113  2px;
+  
+}
